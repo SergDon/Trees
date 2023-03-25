@@ -2,7 +2,6 @@ import java.util.Comparator;
 import java.util.StringTokenizer;
 public class ComparatorMaximumNumberOfWordsInASurname implements Comparator<Person> {
     private int maxNumberOfWords;
-
     public ComparatorMaximumNumberOfWordsInASurname(int maxNumberOfWords) {
         this.maxNumberOfWords = maxNumberOfWords;
     }
